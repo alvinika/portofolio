@@ -9,15 +9,15 @@ export const headData = {
 
 // HERO DATA
 export const heroData = {
-  title: '',
-  name: '',
-  subtitle: '',
+  title: 'Hello, my name is',
+  name: 'Alvin Ika',
+  subtitle: 'Junior Programmer',
   cta: '',
 };
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'profile.jpg',
+  img: 'alvin.jpeg',
   paragraphOne: '',
   paragraphTwo: '',
   paragraphThree: '',
@@ -57,9 +57,9 @@ export const projectsData = [
 
 // CONTACT DATA
 export const contactData = {
-  cta: '',
-  btn: '',
-  email: '',
+  cta: 'Contact me',
+  btn: 'here',
+  email: 'alfin1715@gmail.com',
 };
 
 // FOOTER DATA
@@ -67,23 +67,18 @@ export const footerData = {
   networks: [
     {
       id: nanoid(),
-      name: 'twitter',
-      url: '',
-    },
-    {
-      id: nanoid(),
-      name: 'codepen',
-      url: '',
+      name: 'whatsapp',
+      url: 'https://api.whatsapp.com/send/?phone=6287778614704&text&app_absent=0',
     },
     {
       id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/alvin-ika-3096bb194',
     },
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/alvinika',
     },
   ],
 };
